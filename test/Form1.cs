@@ -50,9 +50,9 @@ namespace test
 
         private void ThreadTask()
         {
-            while (textBox2.Text!=textBox1.Text)
+            while (outputBox.Text!=inputBox.Text)
             {
-                textBox2.Text = textBox1.Text;
+                outputBox.Text = inputBox.Text;
             }
 
         }
